@@ -1,4 +1,2 @@
 import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap { return [{ url: "https://empathie-ten.vercel.app", lastModified: new Date(), changeFrequency: "monthly", priority: 1 }]; }
-import type { MetadataRoute } from "next";
-export default function sitemap(): MetadataRoute.Sitemap { return [{ url: "https://empathie.vercel.app", lastModified: new Date(), changeFrequency: "monthly", priority: 1 }]; }
